@@ -66,6 +66,7 @@ This project demonstrates how **machine learning + biological feature engineerin
 notebooks/
   Multimodal_integration_processing_steps.ipynb 
   Modular_pipeline.ipynb
+  Isolation_forest.ipynb
 
 archived_notebooks/
   (older exploratory notebooks)
@@ -133,7 +134,8 @@ Make sure they follow the expected structure for the feature extraction scripts.
 4. **Run the notebooks in order:**
 
     - Open and run `notebooks/Multimodal_integration_processing_steps.ipynb` to process the input data.
-    - Then run `notebooks/Modular_pipeline.ipynb` to engineer features, train models, and rank predicted binders.
+    - Then run `notebooks/Modular_pipeline.ipynb` to engineer features, train XGBoost model, and rank predicted binders.
+    - Then run `Isolation_forest.ipynb` to train Isolation forest model.
 
 After completing these steps, you will generate binding predictions, SHAP model explanations, and ranked binder candidate lists.
 
