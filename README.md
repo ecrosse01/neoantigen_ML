@@ -6,7 +6,7 @@
 
 This project applies machine learning (ML) to single-cell multi-omics data to **identify true TCR–neoantigen binding events** from a highly noisy background.
 
-Using feature engineering and both unsupervised and supervised learning (Isolation Forest, XGBoost classifier), the model amplifies true binding signals while suppressing background noise — helping prioritize true TCR–pMHC interactions for downstream validation.
+Using feature engineering and supervised learning (XGBoost classifier), the model amplifies true binding signals while suppressing background noise — helping prioritize true TCR–pMHC interactions for downstream validation.
 
 **Problem**: Noisy dextramer binding data, weak or absent labels, high dimensionality  
 **Goal**: Find true binder pairs with minimal ground truth available  
