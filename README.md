@@ -128,8 +128,7 @@ SRSF2_9 = MDS patient 2, 15 months post-transplant
 SRSF2_10 = MDS patient 2, pre-transplant
 
 Once downloaded, place the data in the `data/` directory:
-
-    - Make sure they follow the expected structure for the feature extraction scripts.
+Make sure they follow the expected structure for the feature extraction scripts.
 
 4. **Run the notebooks in order:**
 
