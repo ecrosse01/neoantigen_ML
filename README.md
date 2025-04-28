@@ -123,9 +123,9 @@ The raw sequencing data is available at **NCBI GEO:GSE268157**:
 | GSM8286630   | WJK-2864_SRSF2_10_CITE (SRSF2 Mutant)    |
 | GSM8286631   | WJK-2864_SRSF2_10_TCR_VDJ (SRSF2 Mutant) |
 
-SRSF2_2 = CMML Patient 1, 1 year post-transplant 
-SRSF2_9 = MDS patient 2, 15 months post-transplant
-SRSF2_10 = MDS patient 2, pre-transplant
+- **SRSF2_2** = CMML Patient 1, 1 year post-transplant 
+- **SRSF2_9** = MDS patient 2, 15 months post-transplant
+- **SRSF2_10** = MDS patient 2, pre-transplant
 
 Once downloaded, place the data in the `data/` directory:
 Make sure they follow the expected structure for the feature extraction scripts.
