@@ -1,0 +1,5 @@
+# Ignore AnnData h5ad files
+*.h5ad
+
+# Ignore local/temporary notebooks
+notebooks/*LOCAL.ipynb
